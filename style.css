@@ -40,7 +40,7 @@ footer p {
   top: 34px;
   left: 181px;
   width: 400px;
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 155px;
 }
 
@@ -55,7 +55,7 @@ footer p {
   position: absolute;
   top: 153px;
   left: 167px;
-  font-size: 24px;
+  font-size: 25px;
   line-height: 2.9em;
 }
 
@@ -106,12 +106,22 @@ footer p {
   right: 0;
 }
 
+.page-2-background2 {
+  width: 1100px;
+  height: 324px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
 .text-2 {
   position: absolute;
-  top: 359px;
-  left: 824px;
-  font-size: 24px;
+  top: 370px;
+  left: 675px;
+  margin: 0 auto;
+  font-size: 30px;
   line-height: 2.9em;
+  text-align: center;
 }
 
 .page-2-bike {
@@ -122,7 +132,7 @@ footer p {
 }
 
 .page-2:hover .page-2-bike {
-  transform: translateX(-1000px);
+  transform: translateX(-1900px);
 }
 
 .puddle1 {
@@ -148,6 +158,19 @@ footer p {
 }
 
 .puddle2:hover {
+  filter: blur(100px);
+}
+
+.puddle3 {
+  width: 152;
+  height: 100px;
+  position: absolute;
+  top: 198px;
+  left: 300px;
+  transition: filter 2s;
+}
+
+.puddle3:hover {
   filter: blur(100px);
 }
 
