@@ -53,9 +53,9 @@ footer p {
 
 .text-1 {
   position: absolute;
-  top: 153px;
+  top: 145px;
   left: 167px;
-  font-size: 25px;
+  font-size: 26px;
   line-height: 2.9em;
 }
 
@@ -134,7 +134,7 @@ footer p {
 }
 
 .page-2:hover .page-2-bike {
-  transform: translateX(-1900px);
+  transform: translateX(-2100px);
 }
 
 .puddle1 {
@@ -191,7 +191,7 @@ footer p {
   height: 558px;
   position: absolute;
   bottom: 177px;
-  right: 128px;
+  right: 100px;
 }
 
 .text-3 {
@@ -202,7 +202,7 @@ footer p {
 .text-3 {
   position: absolute;
   bottom: 377px;
-  left: 580px;
+  left: 602px;
   text-align: center;
 }
 
@@ -211,7 +211,7 @@ footer p {
   height: 120px;
   position: absolute;
   bottom: 496px;
-  right: 506px;
+  right: 478px;
   transition: transform 12s;
 }
 
@@ -231,10 +231,10 @@ footer p {
 .stone-container {
   position: absolute;
   bottom: 60px;
-  right: 400px;
+  right: 372px;
   width: 300px;
-  height: 200px;
-  /* background-color: purple; */
+  height: 300px;
+  /* border: 1px dashed purple; */
 }
 
 .stone-container:hover .stone1 {
@@ -259,14 +259,15 @@ footer p {
   right: 0;
   bottom: 0;
   transition: opacity 2s;
+  /* border: 1px dashed red; */
 }
 
 .text-4 {
   position: absolute;
-  top: 50px;
-  right: 66px;
-  font-size: 30px;
-  line-height: 2.9em;
+  bottom: 60px;
+  right: 55px;
+  font-size: 28px;
+  line-height: 2.8em;
 }
 
 .page-4:hover {
@@ -276,13 +277,13 @@ footer p {
 .page-4-background {
   position: absolute;
   top: 360px;
-  left: 0;
+  left: -250px;
 }
 
 .page-4-background2 {
   position: absolute;
-  bottom: 50px;
-  left: 500px;
+  bottom: 80px;
+  left: 300px;
 }
 
 /* .page-4-background3 {
@@ -301,5 +302,5 @@ footer p {
 }
 
 .page-4:hover .page-4-bike {
-  transform: translateX(-1900px);
+  transform: translateX(-2100px);
 }
