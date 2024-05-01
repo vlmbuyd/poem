@@ -114,9 +114,31 @@ footer p {
   position: absolute;
   top: 32px;
   right: 0;
-  transition: transform 10s;
+  transition: transform 15s;
 }
 
 .page-2:hover .page-2-bike {
   transform: translateX(-1000px);
+}
+
+.puddle1 {
+  position: absolute;
+  top: 165px;
+  right: 450px;
+  transition: filter 2s;
+}
+
+.puddle1:hover {
+  filter: blur(100px);
+}
+
+.puddle2 {
+  position: absolute;
+  top: 202px;
+  right: 787px;
+  transition: filter 2s;
+}
+
+.puddle2:hover {
+  filter: blur(100px);
 }
