@@ -3,7 +3,8 @@
   box-sizing: border-box;
 }
 
-body {
+.opacity {
+  opacity: 0;
 }
 
 .container {
@@ -23,8 +24,8 @@ body {
 
 .title {
   position: absolute;
-  top: 56px;
-  left: 196px;
+  top: 19px;
+  left: 181px;
   width: 400px;
   font-size: 28px;
   margin-bottom: 155px;
@@ -32,21 +33,21 @@ body {
 
 .poet {
   position: absolute;
-  top: 122px;
-  left: 567px;
+  top: 85px;
+  left: 554px;
   font-size: 26px;
 }
 
 .text-1 {
   position: absolute;
-  top: 277px;
-  left: 175px;
-  font-size: 30px;
-  line-height: 3em;
+  top: 153px;
+  left: 167px;
+  font-size: 24px;
+  line-height: 2.9em;
 }
 
 .page-1 {
-  transition: all 2s;
+  transition: all 3s;
 }
 
 .page-1:hover {
@@ -54,10 +55,12 @@ body {
 }
 
 .page-1-background {
+  width: 542px;
+  height: 521px;
   position: absolute;
-  top: 0;
-  right: 0;
-  transition: opacity 2s;
+  bottom: 0px;
+  left: 133px;
+  transition: opacity 3s;
 }
 
 .page-1:hover .page-1-background {
@@ -65,10 +68,12 @@ body {
 }
 
 .page-1-bike {
+  width: 191px;
+  height: 260px;
   position: absolute;
-  bottom: 0;
-  right: 295px;
-  transition: opacity 1s;
+  bottom: 0px;
+  left: 295px;
+  transition: opacity 3s;
 }
 
 .page-1:hover .page-1-bike {
@@ -76,9 +81,7 @@ body {
   /* transform: rotate(180deg); */
 }
 
-.opacity {
-  opacity: 0;
-}
+/* page-2 */
 
 footer p {
   position: absolute;
