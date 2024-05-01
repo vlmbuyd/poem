@@ -18,13 +18,13 @@ footer p {
   font-size: 16px;
   line-height: 2.125em;
   color: #827f7f;
+  text-align: center;
 }
 
 .container {
   width: 1920px;
   height: 1080px;
   position: relative;
-  /* border: 1px dashed red; */
   /* margin: 100px; */
   background-color: #e3e2df;
 }
@@ -250,4 +250,56 @@ footer p {
 
 .stone-container:hover .stone2 {
   transform: translateX(200px) rotate(360deg);
+}
+
+/* page-4 */
+.page-4 {
+  width: 300px;
+  height: 150px;
+  right: 0;
+  bottom: 0;
+  transition: opacity 2s;
+}
+
+.text-4 {
+  position: absolute;
+  top: 50px;
+  right: 66px;
+  font-size: 30px;
+  line-height: 2.9em;
+}
+
+.page-4:hover {
+  opacity: 1;
+}
+
+.page-4-background {
+  position: absolute;
+  top: 360px;
+  left: 0;
+}
+
+.page-4-background2 {
+  position: absolute;
+  bottom: 50px;
+  left: 500px;
+}
+
+/* .page-4-background3 {
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+} */
+
+.page-4-bike {
+  width: 303px;
+  height: 279px;
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  transition: transform 10s;
+}
+
+.page-4:hover .page-4-bike {
+  transform: translateX(-1900px);
 }
