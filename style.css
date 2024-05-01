@@ -1,9 +1,90 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 1920px;
-    height: 1080px;
+}
+
+.container {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  border: 1px dashed red;
+  margin: 100px;
+  background-color: #e3e2df;
+}
+
+.page-1 {
+  width: 550px;
+  top: 60px;
+  left: 193px;
+}
+
+.title {
+  position: absolute;
+  top: 56px;
+  left: 196px;
+  width: 400px;
+  font-size: 28px;
+  margin-bottom: 155px;
+}
+
+.poet {
+  position: absolute;
+  top: 122px;
+  left: 567px;
+  font-size: 26px;
+}
+
+.text-1 {
+  position: absolute;
+  top: 277px;
+  left: 175px;
+  font-size: 30px;
+  line-height: 3em;
+}
+
+.page-1 {
+  transition: all 2s;
+}
+
+.page-1:hover {
+  opacity: 1;
+}
+
+.page-1-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: opacity 2s;
+}
+
+.page-1:hover .page-1-background {
+  opacity: 1;
+}
+
+.page-1-bike {
+  position: absolute;
+  bottom: 0;
+  right: 295px;
+  transition: opacity 1s;
+}
+
+.page-1:hover .page-1-bike {
+  opacity: 1;
+  /* transform: rotate(180deg); */
+}
+
+.opacity {
+  opacity: 0;
+}
+
+footer p {
+  position: absolute;
+  bottom: 14px;
+  left: 778px;
+  font-size: 16px;
+  line-height: 2.125em;
+  color: #827f7f;
 }
